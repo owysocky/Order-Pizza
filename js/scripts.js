@@ -37,7 +37,6 @@ function displayTotal(){
   insertWhere.text(insertWhat);
 }
 
-
 var pizza = new Pizza();
 var small = new Size ("small", 6.5);
 var medium = new Size ("medium", 9.5);
@@ -63,7 +62,6 @@ $(document).ready(function() {
     document.getElementById("formOne").reset();
     $("#formOne").trigger('reset');
 
-console.log(pizza); //--------------------------!!!
     displayTotal();
   });
 });
